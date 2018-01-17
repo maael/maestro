@@ -4,6 +4,8 @@
   "description": "A music note learning cli.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "maestro": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,5 +19,8 @@
   "dependencies": {
     "inquirer": "^5.0.0",
     "log-update": "^2.3.0"
+  },
+  "bin": {
+    "maestro": "index.js"
   }
 }

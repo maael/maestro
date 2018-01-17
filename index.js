@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const logUpdate = require('log-update')
 const inquirer = require('inquirer')
 const { getTableWithNote, options } = require('./noteCreator')
